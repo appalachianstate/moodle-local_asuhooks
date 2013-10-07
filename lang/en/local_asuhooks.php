@@ -31,8 +31,8 @@
 
     $string['pluginname']                  = 'ASU Hooks';
     
-    $string['IMPORT_MENU_LONG']            = 'Import all materials into current course';
-    $string['IMPORT_MENU_SHORT']           = 'Import';
+    $string['IMPORT_MENU_LONG']            = 'Merge all materials into current course';
+    $string['IMPORT_MENU_SHORT']           = 'Merge';
 
     $string['OVERWRITE_MENU_LONG']         = 'Overwrite current course';
     $string['OVERWRITE_MENU_SHORT']        = 'Overwrite';
