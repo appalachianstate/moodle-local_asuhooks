@@ -39,3 +39,4 @@
 
     $string['USER_PRIVATE_BACKUP_AREA_LONG']     = 'User private backup area';
     $string['USER_PRIVATE_BACKUP_AREA_SHORT']    = 'Backups';
+
