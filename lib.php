@@ -70,7 +70,7 @@
                 'id' => $COURSE->id)),
             navigation_node::TYPE_SETTING,
             get_string('USER_PRIVATE_BACKUP_AREA_SHORT', 'local_asuhooks'),
-            null, new pix_icon('i/backup', 'backups'));
+            null, new pix_icon('i/files', 'backups'));
     
     }
 

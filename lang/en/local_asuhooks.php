@@ -37,6 +37,6 @@
     $string['OVERWRITE_MENU_LONG']               = 'Overwrite current course';
     $string['OVERWRITE_MENU_SHORT']              = 'Overwrite';
 
-    $string['USER_PRIVATE_BACKUP_AREA_LONG']     = 'User private backup area';
+    $string['USER_PRIVATE_BACKUP_AREA_LONG']     = 'Manage user backup files';
     $string['USER_PRIVATE_BACKUP_AREA_SHORT']    = 'Backups';
 
