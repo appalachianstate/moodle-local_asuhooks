@@ -19,7 +19,7 @@
      *  local_asuhooks
      *
      *
-     * @author      Lacey Vickery <vickerylm@appstate.edu>
+     * @author      Lacey Vickery <vickerylm@appstate.edu>, Michelle Melton <meltonml@appstate.edu>
      * @copyright   (c) 2013 Appalachian State Universtiy, Boone, NC
      * @license     GNU General Public License version 3
      * @package     local
@@ -29,11 +29,13 @@
     defined('MOODLE_INTERNAL') || die();
 
 
-    $string['pluginname']                  = 'ASU Hooks';
+    $string['pluginname']                        = 'ASU Hooks';
     
-    $string['IMPORT_MENU_LONG']            = 'Merge all materials into current course';
-    $string['IMPORT_MENU_SHORT']           = 'Merge';
+    $string['IMPORT_MENU_LONG']                  = 'Merge all materials into current course';
+    $string['IMPORT_MENU_SHORT']                 = 'Merge';
 
-    $string['OVERWRITE_MENU_LONG']         = 'Overwrite current course';
-    $string['OVERWRITE_MENU_SHORT']        = 'Overwrite';
+    $string['OVERWRITE_MENU_LONG']               = 'Overwrite current course';
+    $string['OVERWRITE_MENU_SHORT']              = 'Overwrite';
 
+    $string['USER_PRIVATE_BACKUP_AREA_LONG']     = 'User private backup area';
+    $string['USER_PRIVATE_BACKUP_AREA_SHORT']    = 'Backups';

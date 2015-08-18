@@ -62,6 +62,15 @@
         	navigation_node::TYPE_SETTING,
         	get_string('OVERWRITE_MENU_SHORT', 'local_asuhooks'),
         	null, new pix_icon('i/backup', 'overwrite'));
+
+        // Add link to user private backup area
+        $restoreadmin_node->add(
+            get_string('USER_PRIVATE_BACKUP_AREA_LONG', 'local_asuhooks')
+            new moodle_url('/blocks/simple_restore/list.php', array(
+                'id' => $COURSE->id)),
+            navigation_node::TPE_SETTING,
+            get_string('USER_PRIVATE_BACKUP_AREA_SHORT', 'local_asuhooks'),
+            null, new pix_icon('i/backup', 'backups'));
     
     }
 
