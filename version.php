@@ -21,7 +21,7 @@
      *  This plugin will be used to extend Moodle core navigation,
      *  override core form elements, etc.
      *
-     * @author      Lacey Vickery<vickerylm@appstate.edu>
+     * @author      Lacey Vickery<vickerylm@appstate.edu>, Michelle Melton<meltonml@appstate.edu>
      * @copyright   (c) 2013 Appalachian State Universtiy, Boone, NC
      * @license     GNU General Public License version 3
      * @package     local
