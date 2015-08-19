@@ -67,7 +67,8 @@
         $restoreadmin_node->add(
             get_string('USER_PRIVATE_BACKUP_AREA_LONG', 'local_asuhooks'),
             new moodle_url('/blocks/simple_restore/list.php', array(
-                'id' => $COURSE->id)),
+                'id' => $COURSE->id,
+                'restore_to' => 1)),
             navigation_node::TYPE_SETTING,
             get_string('USER_PRIVATE_BACKUP_AREA_SHORT', 'local_asuhooks'),
             null, new pix_icon('i/files', 'backups'));
