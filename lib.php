@@ -11,7 +11,7 @@
      * @param course_context      $context
      * @return void
      */
-    function local_asuhooks_extends_settings_navigation(settings_navigation $navigation, $context) {
+    function local_asuhooks_extend_settings_navigation(settings_navigation $navigation, $context) {
 		global $COURSE;
 		
         // If not in a course context, then leave
